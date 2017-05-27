@@ -5,3 +5,5 @@ $ go get -race github.com/starius/racesync
 # sync
 .goroot/src/sync/cond.go:8: can't find import: "sync/atomic"
 ```
+
+The issue: https://github.com/golang/go/issues/20512
